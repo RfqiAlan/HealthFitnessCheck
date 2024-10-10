@@ -35,3 +35,4 @@ def tampilkan_hasil_bmi(tinggi, berat, jenis_kelamin):
     print(f"Dengan tinggi badan {tinggi} m dan berat badan {berat} kg, nilai BMI Anda adalah: {bmi_result:.2f}")
     print(f"Kategori BMI Anda adalah: {kategori}")
 
+tampilkan_hasil_bmi(1.9, 70, "2")
