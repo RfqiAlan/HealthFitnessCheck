@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='HealthFitness',
-    version='0.1.2',
+    version='0.1.3',
     description='Menyediakan fitur pengecekan kesehatan dan fitness',
     long_description=open('README.md').read(),
     long_description_content_type="text/markdown",
