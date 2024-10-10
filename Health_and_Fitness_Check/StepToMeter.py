@@ -26,8 +26,8 @@ def panjang_langkah(jenis_kelamin, tinggi_badan):
 def hitung_jarak(banyak_langkah, panjang_langkah):
     if not isinstance(panjang_langkah, float):
         return panjang_langkah
-    jarak = banyak_langkah * panjang_langkah  
+    jarak = banyak_langkah * panjang_langkah
     return jarak
 
 
-
+print(hitung_jarak(2000, panjang_langkah(1, 1.7)))

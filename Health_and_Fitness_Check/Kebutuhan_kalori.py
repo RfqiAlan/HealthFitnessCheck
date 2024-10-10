@@ -10,7 +10,6 @@ def kebutuhan_kalori_harian(berat, tinggi, usia, jenis_kelamin, tingkat_aktivita
         else:
             raise ValueError("Jenis kelamin tidak valid. Gunakan 'L' untuk laki-laki atau 'P' untuk perempuan.")
         
-        # tingkat aktivitas
         if tingkat_aktivitas.lower() == 'rendah':
             kalori_harian = bmr * 1.2
         elif tingkat_aktivitas.lower() == 'sedang':

@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='Health and Fitness Check`',
-    version='0.1.0',
+    name='HealthFitness',
+    version='0.1.1',
     description='Menyediakan fitur pengecekan kesehatan dan fitness',
     long_description=open('README.md').read(),
     long_description_content_type="text/markdown",
