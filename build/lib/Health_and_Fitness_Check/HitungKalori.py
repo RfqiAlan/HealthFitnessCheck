@@ -1,19 +1,11 @@
 def hitung_kalori(berat_badan, durasi, aktivitas):
-    """Menghitung jumlah kalori yang dibakar berdasarkan berat badan, durasi aktivitas, dan jenis aktivitas.
-    Args:
-        berat_badan (float): Berat badan dalam kilogram.
-        durasi (float): Durasi aktivitas dalam menit.
-        aktivitas (str): Jenis aktivitas yang dilakukan.
-    Example:
-        hitung_kalori(70, 60, jogging)
-    Aktifitas Tersedia:
-        "duduk di meja"
-        "berjalan santai"
-        "bersepeda ringan"
-        "jogging" 
-        "berenang" 
-        "lari cepat"
-        
+    """
+    Menghitung jumlah kalori yang dibakar berdasarkan berat badan, durasi aktivitas, dan jenis aktivitas.
+
+    berat_badan (float): Berat badan dalam kilogram.
+    durasi (float): Durasi aktivitas dalam menit.
+    aktivitas (str): Jenis aktivitas yang dilakukan.
+    
     """
     try:
         met_values = {

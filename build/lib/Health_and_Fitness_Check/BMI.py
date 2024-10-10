@@ -1,7 +1,11 @@
+# Function 1 : Body Mass Index (BMI)
 def hitung_bmi(tinggi_badan, berat_badan):
+    """Menghitung BMI berdasarkan tinggi badan (meter) dan berat badan (kg)."""
     bmi = berat_badan / tinggi_badan**2
     return bmi
+
 def kategori_bmi(jenis_kelamin, bmi):
+    """Menentukan kategori BMI berdasarkan jenis kelamin dan nilai BMI."""
     if jenis_kelamin == "1" or jenis_kelamin == "laki laki":
         if bmi < 18:
             return "Underweight (Laki-laki)"
@@ -22,19 +26,12 @@ def kategori_bmi(jenis_kelamin, bmi):
             return "Obese (Perempuan)"
     else:
         return "Jenis kelamin tidak valid"
-def check_bmi(tinggi, berat, jenis_kelamin):
-    """Fungsi untuk menghitung dan menampilkan hasil BMI dan kategori.
-    Args:
-        tinggi (float) : tinggi badan dalam satuan meter.
-        berat (float) : berat badan dalam satuan kg.
-        jenis kelamin (str) : "1"/ "laki laki" "2" / "perempuan".
-    Example:
-        check_bmi(1.8, 50.9, "perempuan")
-        """
+
+# Fungsi untuk menampilkan hasil BMI dan kategorinya
+def tampilkan_hasil_bmi(tinggi, berat, jenis_kelamin):
+    """Fungsi untuk menghitung dan menampilkan hasil BMI dan kategori."""
     bmi_result = hitung_bmi(tinggi, berat)
     kategori = kategori_bmi(jenis_kelamin, bmi_result)
     print(f"Dengan tinggi badan {tinggi} m dan berat badan {berat} kg, nilai BMI Anda adalah: {bmi_result:.2f}")
     print(f"Kategori BMI Anda adalah: {kategori}")
-
-check_bmi(1.7,67,"2")
 
