@@ -24,6 +24,8 @@ def kebutuhan_kalori_harian(berat, tinggi, usia, jenis_kelamin, tingkat_aktivita
     except:
         return "Inputan invalid"
 
+print(kebutuhan_kalori_harian(50, 160, 23, 'p', 'sedang'),"kalori")
+
 # while True:
 #     try:
 #         # Input pengguna
