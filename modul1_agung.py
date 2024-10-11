@@ -1,16 +1,14 @@
 def hitung_dan_tampilkan_bmi(tinggi, berat, jenis_kelamin):
     """Fungsi untuk menghitun, menampilkan hasil BMI dan kategorinya.
-    Args :
+    Args:
         tinggi (float) : tinggi badan dalam satuan meter.
         berat (float) : berat badan dalam satuan kg.
         jenis kelamin (str) : "1"/ "laki laki" "2" / "perempuan".
-    Example :
+    Example:
         tampilkan_hasil_bmi(1.8, 50.9, "perempuan")"""
-    
-    # Menghitung BMI
+
     bmi = berat / tinggi**2
-    
-    # Menentukan kategori BMI
+
     if jenis_kelamin == "1" or jenis_kelamin == "laki laki":
         if bmi < 18:
             kategori = "kekurangan berat badan (laki-laki)"
@@ -32,11 +30,14 @@ def hitung_dan_tampilkan_bmi(tinggi, berat, jenis_kelamin):
     else:
         return "Jenis kelamin tidak valid"
     
-    # Menampilkan hasil BMI dan kategori
     print(f"Dengan tinggi badan {tinggi} m dan berat badan {berat} kg, nilai BMI anda adalah : {bmi:.2f}")
     print(f"Kategori BMI anda adalah : {kategori}")
 
-"""Anda dapat mencoba memanggil dan menjalankan fungsi dengan memasukkan setiap parameter yang dibutuhkan fungsi tersebut di bawah docstring ini."""
+
+
+
+
+
 
 
 
