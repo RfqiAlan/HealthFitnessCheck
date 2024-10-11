@@ -27,5 +27,6 @@ def kebutuhan_kalori_harian(berat, tinggi, usia, jenis_kelamin, tingkat_aktivita
         return f"{kalori_harian:,} kalori"
     except:
         return "Inputan invalid"
-print(kebutuhan_kalori_harian(70, 170, 18, "L", "sedang"))
+        
+print(f"Kebutuhan kalori harian adalah {kebutuhan_kalori_harian(50, 160, 23, 'p', 'sedang')} kalori")
 
