@@ -1,19 +1,16 @@
-from .BMI import hitung_bmi, kategori_bmi, check_bmi
+from .BMI import hitung_dan_tampilkan_bmi
 from .HitungKalori import hitung_kalori
 from .Kebutuhan_kalori import kebutuhan_kalori_harian
 from .Asupan_air import rekomendasi_asupan_air
-from .StepToMeter import panjang_langkah, hitung_jarak
+from .StepToMeter import jarak_langkah
 from .ZonaDetakJantung import zona_detak_jantung_latihan
 
 
 __all__ = [
-    "hitung_bmi",
-    "kategori_bmi",
-    "check_bmi",
+    "hitung_dan_tampilkan_bmi",
     "hitung_kalori",
     "kebutuhan_kalori_harian",
     "rekomendasi_asupan_air",
-    "panjang_langkah",
-    "hitung_jarak",
+    "jarak_langkah",
     "zona_detak_jantung_latihan"
 ]

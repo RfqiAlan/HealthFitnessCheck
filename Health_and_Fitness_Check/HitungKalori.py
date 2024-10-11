@@ -41,4 +41,7 @@ def hitung_kalori(berat_badan, durasi, aktivitas):
         return total_kalori
     except:
         return "Input tidak valid"
+    
 
+
+print(hitung_kalori(70, 60, "jogging"))

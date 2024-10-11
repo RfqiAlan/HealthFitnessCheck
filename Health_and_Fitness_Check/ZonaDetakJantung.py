@@ -1,5 +1,5 @@
 def zona_detak_jantung_latihan(usia):
-    """
+    """Menghitung zona detak jantung aerobik dan anerobik serta maksimum detak jantun berdasrakan usia.
     Args:
         usia (int): Umur dalam angka
     Example:
@@ -8,7 +8,7 @@ def zona_detak_jantung_latihan(usia):
     try:
         if usia <= 0:
             print("Error: Usia harus berupa angka positif.")
-            return zona_detak_jantung_latihan
+            return 
 
         detak_jantung_maksimum = 220 - usia
 
@@ -23,7 +23,8 @@ def zona_detak_jantung_latihan(usia):
             zona_anaerobik = (detak_jantung_maksimum * 0.70, detak_jantung_maksimum * 0.80)
 
         print(f"Detak jantung maksimum untuk usia {usia} tahun adalah {detak_jantung_maksimum} bpm.")
-        print(f"Zona Aerobik: {zona_aerobik[0]} - {zona_aerobik[1]} bpm")
-        print(f"Zona Anaerobik: {zona_anaerobik[0]} - {zona_anaerobik[1]} bpm")
+        print(f"Zona Aerobik: {zona_aerobik[0]:5f} - {zona_aerobik[1]:5f} bpm")
+        print(f"Zona Anaerobik: {zona_anaerobik[0]:5f} - {zona_anaerobik[1]:5f} bpm")
     except:
         print("Inputan invalid")
+print(zona_detak_jantung_latihan(12))

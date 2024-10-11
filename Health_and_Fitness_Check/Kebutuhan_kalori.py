@@ -7,7 +7,7 @@ def kebutuhan_kalori_harian(berat, tinggi, usia, jenis_kelamin, tingkat_aktivita
         jenis_kelamin (str): untuk laki-laki di simbolkan "L", sedangkan perempuan "P"
         tingkat_aktifitas (str): rendah, sedang dan tinggi
     Example:
-        kebutuhan_kalori_harian(70, 170, 18, L, sedang)
+        kebutuhan_kalori_harian(70, 170, 18, "L", "sedang")
     """
     try:      
         if jenis_kelamin.upper() == 'L':
@@ -27,5 +27,5 @@ def kebutuhan_kalori_harian(berat, tinggi, usia, jenis_kelamin, tingkat_aktivita
         return f"{kalori_harian:,} kalori"
     except:
         return "Inputan invalid"
-print(kebutuhan_kalori_harian(70, 170, 18, "L", "sedang"))
+
 
