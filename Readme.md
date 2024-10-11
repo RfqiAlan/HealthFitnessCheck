@@ -1,5 +1,5 @@
 ## Penjelasam Modul
-Modul 1 terdiri dari 3 fungsi yang digunakan untuk mengetahui jumlah Body Mass Index (BMI), penggolongan keadaan tubuh berdasarkan skala BMI dan terakhir adalah fungsi untuk menampilkan nilai BMI dan penggolongannya dengan pemformatan.
+Modul 1 digunakan untuk mengetahui jumlah Body Mass Index (BMI), penggolongan keadaan tubuh berdasarkan skala BMI.
 
 ## Parameter 
 Parameter yang digunakan terdiri dari tinggi badan dalam meter, berat badan dalam kg dan jenis kelamin ("1" / "laki laki" dan "2" atau "perempuan") karena perbedaan jenis kelamin berefek pada penggolongan BMI.
@@ -9,8 +9,8 @@ Nilai yang dikembalikan berupa skala BMI hasil operasi dari tinggi dan berat bad
 
 ## Contoh penggunaan 
 Pemangggilan fungsi :
-tampilkan_hasil_bmi(1.9, 70, "perempuan")
+hitung_dan_tampilkan_bmi(1.8, 50.9, "2")
 
 Hasil pemanggilan fungsi :
-Dengan tinggi badan 1.9 m dan berat badan 70 kg, nilai BMI anda adalah : 19.39
-Kategori BMI anda adalah : Normal (Perempuan)
+Dengan tinggi badan 1.8 m dan berat badan 50.9 kg, nilai BMI anda adalah : 15.71
+Kategori BMI anda adalah : kekurangan berat badan (perempuan)
