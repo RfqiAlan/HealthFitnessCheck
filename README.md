@@ -34,8 +34,8 @@ Berikut adalah beberapa contoh cara menggunakan paket HealthFitness:
 
 ### Menghitung BMI
 ```python
-from Health_and_Fitness_Check import check_bmi
-check_bmi(1.8, 70.3, "2")
+from Health_and_Fitness_Check import hitung_dan_tampilkan_bmi
+hitung_dan_tampilkan_bmi(1.8, 70.3, "2")
 ```
 
 ### Kebutuhan kalori harian
@@ -88,7 +88,7 @@ Fungsi ini digunakan untuk mengitung BMI dengan format yang sesuai berdasarkan t
 
 **Contoh Penggunaan:**
 ```python
-BMI = check_bmi(1.8, 70.3, "2")
+BMI = hitung_dan_tampilkan_bmi(1.8, 70.3, "2")
 print(BMI)
 ```
 **Output:**
