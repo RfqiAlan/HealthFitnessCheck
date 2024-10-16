@@ -3,9 +3,9 @@ def kebutuhan_kalori_harian(berat, tinggi, usia, jenis_kelamin, tingkat_aktivita
     Args:
         berat (float): Berat badan dalam kilogram
         tinggi (float) : tinggi dalam centimeter
-        usia (int): Umur dalam angka
+        usia (int): Umur dalam tahun
         jenis_kelamin (str): untuk laki-laki di simbolkan "L", sedangkan perempuan "P"
-        tingkat_aktifitas (str): rendah, sedang dan tinggi
+        tingkat_aktivitas (str): rendah, sedang dan tinggi
     Example:
         kebutuhan_kalori_harian(70, 170, 18, "L", "sedang")
     """
